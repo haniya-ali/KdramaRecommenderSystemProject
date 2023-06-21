@@ -1,7 +1,26 @@
 # KdramaRecommenderSystemProject
-By using a dataset that contains information about 1,646 Korean dramas, this project aims to provide the user with recommendations on which kdramas they can enjoy. The project utilizes an item-based collaborative filtering to generate recommendations based on the similarity between the ratings of the dramas.  
-Note: The dataset was retrieved from Kaggle where the creator scraped a website to generate the final dataset: https://www.kaggle.com/datasets/noorrizki/top-korean-drama-list-1500. 
+**Overview**
+This project aims to provide users with personalized recommendations for Korean dramas (kdramas) based on their preferences. The recommendation system utilizes a dataset containing information about 1,646 kdramas, including ratings and genres. The dataset was retrieved from Kaggle, where the creator scraped a website to generate the final dataset: Kdrama Dataset.
 
-The potential applications of this project are as follows:
-1. A user can determine if they have the right subscriptions to access their next kdrama
-2. A user can identify their favorite genres
+**Objective**
+The main objective of this project is to recommend kdramas to users based on their preferences and the similarity of ratings among dramas. By utilizing item-based collaborative filtering, the system identifies similar kdramas based on the ratings given by users and suggests relevant recommendations.
+
+**Features**
+The dataset used for this project includes the following features:
+
+Title: The title of the kdrama.
+Genre: The genre(s) of the kdrama.
+Synopsis: A brief summary of the kdrama's plot.
+Content Rating: The content rating of the kdrama.
+Network: The broadcasting network or streaming platform of the kdrama.
+Score: The overall rating score given to the kdrama.
+Votes: The number of votes or ratings received by the kdrama.
+Year: The year of release of the kdrama.
+Country: The country of origin of the kdrama.
+
+**Applications**
+The project has several potential applications, including:
+
+Subscription Compatibility: Users can determine if they have the right subscriptions or access to the streaming platforms that offer the recommended kdramas. This saves users from the hassle of searching for compatible kdramas on multiple platforms.
+
+Favorite Genres: Users can identify their favorite genres based on the recommendations provided. By exploring the recommended kdramas within specific genres, users can discover new dramas that align with their preferences and interests.
