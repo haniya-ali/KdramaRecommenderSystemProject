@@ -1,4 +1,6 @@
 # KdramaRecommenderSystemProject
+![image](https://hips.hearstapps.com/hmg-prod/images/gh-090120-korean-dramas-1598991730.png)
+
 **Overview**
 This project aims to provide users with personalized recommendations for Korean dramas (kdramas) based on their preferences. The recommendation system utilizes a dataset containing information about 1,646 kdramas, including ratings and genres. The dataset was retrieved from Kaggle, where the creator scraped a website to generate the final dataset: Kdrama Dataset.
 
